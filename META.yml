@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: Test-XML-Valid
-version: 0.03
+version: 0.04
 license: perl
 distribution_type: module
 requires:
@@ -13,5 +13,5 @@ conflicts: {}
 provides:
   Test::XML::Valid:
     file: lib/Test/XML/Valid.pm
-    version: 0.03
+    version: 0.04
 generated_by: Module::Build version 0.21

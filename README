@@ -5,6 +5,7 @@ SYNOPSIS
       use Test::XML::Valid;
 
       xml_file_ok($xmlfilename);
+      xml_string_ok($xml_string);
 
 DESCRIPTION
     Tests for Valid XHTML (using XML::LibXML). If the XML is not valid, a
@@ -14,6 +15,9 @@ DESCRIPTION
 FUNCTIONS
   xml_file_ok( *$xmlfilename*, *$msg* );
     Checks that *$xmlfilename* validates. *$msg* is optional.
+
+  xml_string_ok( *$xmlstring*, *$msg* );
+    Checks that *$xml_string* validates. *$msg* is optional.
 
 AUTHOR
         Mark Stosberg <mark@summersault.com>

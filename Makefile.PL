@@ -4,7 +4,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile
   (
    NAME        => 'Test::XML::Valid',
-   VERSION     => '0.03',
+   VERSION     => '0.04',
    PL_FILES    => {},
    INSTALLDIRS => 'site',
    PREREQ_PM   => {
